@@ -41,6 +41,30 @@ font-family: 'Raleway', sans-serif;
     padding: 1.3em;
 }
 
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-twitter{
+    color: #2C2F35;
+}
+.fa-instagram{
+    color: #2C2F35;
+}
+.fa-youtube{
+    color: #2C2F35;
+}
+.fa-spotify{
+    color: #1ED760;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-youtube:hover,
+.fa-spotify:hover{
+color: #c9c9c9;
+}
+
 .centered-text {
     color: white;
     position: absolute;
@@ -64,5 +88,19 @@ font-family: 'Raleway', sans-serif;
 
 .jumbotron p{
     font-size: 40px;
-    padding: 100px 200px;
+    padding: 100px 50px;
+}
+
+.row{
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.centered-text-2{
+    text-align: center;
+}
+
+.par{
+    font-size: 18px;
+    padding: 10px;
 }
