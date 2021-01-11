@@ -91,11 +91,11 @@ color: #c9c9c9;
     padding: 100px 50px;
 }
 
-.row{
+/* .row{
     padding-right: 200px;
     padding-left: 200px;
 }
-
+ */
 .centered-text-2{
     text-align: center;
 }
@@ -103,4 +103,54 @@ color: #c9c9c9;
 .par{
     font-size: 18px;
     padding: 10px;
+}
+
+.btn-primary{
+    background-color: #E55C5C;
+    border: 1px solid #E55C5C;
+}
+
+.btn-primary:hover{
+    background-color: #EA6E6E;
+    border: 1px solid #EA6E6E ;
+  }
+
+.card-title{
+    font-size: 2.1rem;
+}
+
+.card-text{
+    font-size: 1.1rem;
+    padding-top: 1rem;
+}
+
+.card{
+    border: none;
+}
+
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+  }
+
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+hr.light-last{
+    width: 100%;
+    border-top: 1px solid #d5d5d5;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.big-div{
+    padding: 0rem 15rem;
+}
+
+.small-div{
+    padding-top: 10rem;
 }
