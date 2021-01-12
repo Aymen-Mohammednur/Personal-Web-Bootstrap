@@ -10,35 +10,30 @@ html, body {
 }
 
 .navbar{
-padding: 1rem;
+    padding: 2rem;
 }
 
 .navbar-brand{
-    font-size: 2em;
-    padding-left: 250px;
+    font-size: 1.8rem;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 .navbar-nav li{
-padding: 20px;
+    padding: 0rem 1.1rem;
+}
+
+.navcont{
+    padding: 0rem 15rem;
 }
 
 .nav-link{
-font-size: 1.3em;
+font-size: 1.2rem;
 font-family: 'Raleway', sans-serif;
 }
 
 .nav-item{
     text-transform: uppercase;
-}
-
-.social-links{
-    padding-right: 250px;
-}
-
-.social-links a{
-    padding: 1.3em;
 }
 
 .fa-facebook{
@@ -65,16 +60,23 @@ font-family: 'Raleway', sans-serif;
 color: #c9c9c9;
 }
 
-.centered-text {
+.display-4{
     color: white;
-    position: absolute;
-    top: 50%;
+    position: relative;
+    margin-top: 15rem;
+    /* top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     font-size: 3.2rem;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
+    
+}
+
+.j1{
+    background: url("/Asset/image/bg.jfif");
+    height: 45rem;
 }
 
 .bgimg{
@@ -83,13 +85,12 @@ color: #c9c9c9;
     position: relative;
 }
 
-.jumbotron{
+.j2{
     background-color: white;
     margin: 6rem 14rem;
-    text-align: center;
 }
 
-.jumbotron p{
+.j2 p{
     font-size: 2.3rem;
 }
 
