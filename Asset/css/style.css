@@ -84,18 +84,14 @@ color: #c9c9c9;
 
 .jumbotron{
     background-color: white;
+    margin: 6rem 14rem;
+    text-align: center;
 }
 
 .jumbotron p{
-    font-size: 40px;
-    padding: 100px 50px;
+    font-size: 2.3rem;
 }
 
-/* .row{
-    padding-right: 200px;
-    padding-left: 200px;
-}
- */
 .centered-text-2{
     text-align: center;
 }
@@ -121,7 +117,7 @@ color: #c9c9c9;
 
 .card-text{
     font-size: 1.1rem;
-    padding-top: 1rem;
+    margin-top: 1rem;
 }
 
 .card{
@@ -148,9 +144,22 @@ hr.light-last{
 }
 
 .big-div{
-    padding: 0rem 15rem;
+    margin: 0rem 16rem;
 }
 
 .small-div{
-    padding-top: 10rem;
+    margin-top: 10rem;
 }
+
+/* .carousel-indicators li{
+        border-radius: 50%;
+        width: 6.5px;
+        height: 6.5px;
+        background-color: #CCCCCC;
+}
+
+.carousel-indicators li.active{
+        width: 6.5px;
+        height: 6.5px;
+        background-color: black;
+} */
